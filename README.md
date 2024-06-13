@@ -33,3 +33,39 @@ WhatsApp: En esta sección encontramos el numero telefónico de uno de los integ
 
 ## VALIDACIÓN  
 Tenemos un permiso con directivos, docentes y estudiantes que harán valido nuestro proyecto.
+
+# OPERABASIC  
+  
+## GENERAL OBJECTIVE  
+  
+- Promoting the learning of third grade mathematical operations is essential for the academic development of students. By giving them the opportunity to learn in a practical and fun way, they not only become more motivated, but also internalize the concepts better.  
+- By encouraging a fun, hands-on approach to learning third grade math facts, we are cultivating a strong foundation of mathematical understanding in students, which will be invaluable in their academic and personal development.  
+
+
+  
+## SPECIFIC OBJECTIVES  
+- That third grade students can improve learning in the area of ​​mathematics.  
+- Help the teacher in charge of this subject on the topic of mathematics development.  
+- Help students not only see mathematics as an obligation but also as something practical and fun.# Need
+
+# Need 
+
+- Third grade students present complications when learning mathematics with their assigned teacher because they think that mathematics is very boring due to the "Excessive" amount of numbers and signs and some students find it difficult to learn and understand the assigned topics. That is why we are in the process of designing an interactive website that improves the educational learning of students in the area of ​​mathematics through games and interactive activities that encourage their emotions...
+
+#  Base
+
+- We have a page made 20% advanced that has 5 hyperlinks each with a function each:
+
+Home: This section has basic information about our project indicating what the main long-term objective is...
+
+Information: This section has information about the team members, the institution and polytechnic with which they are working, the date of creation of the page and more basic information about other things, etc...   
+
+Games: This section will have games and activities to be carried out by primary school children...
+
+Email: In this section you will find the satisfaction form for doubts and concerns that people who browse our page have...
+
+WhatsApp: In this section we find the telephone number of one of the team members who can be contacted...
+
+## VALIDATION  
+We have a permit with directors, teachers and students that will make our project valid.
+
