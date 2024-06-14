@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO MT 2024</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #f2c94c; /* Color mostaza claro */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: rgb(38, 0, 252);
+            font-size: 36px;
+            margin-bottom: 20px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .navbar {
+            background-color: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex-grow: 1;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: grey;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; /* Añadir un poco de espacio a los lados */
+        }
+
+        .header-images {
+            width: 100px;
+            height: 100px;
+        }
+
+        .poem {
+            margin-top: 20px;
+            font-size: 20px;
+            line-height: 1.5;
+            white-space: pre-line; /* Preservar los saltos de línea */
+        }
+
+        .poem p {
+            margin: 10px 0; /* Reducir el espacio entre párrafos */
+        }
+
+        .logo {
+            width: 300px; /* Reducir tamaño de la imagen */
+            height: auto;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <img src="https://209de9c68d.cbaul-cdnwnd.com/a6cf03b986eaa3236e721e0760d55eda/200000013-a475ba56f3/ESCUDO%20NIEVES.jpg" alt="Imagen a la izquierda del título" class="header-images">
+        <h1>OperaBasic</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Politecnico.png/1200px-Politecnico.png" alt="Imagen a la derecha del título" class="header-images">
+    </div>
+
+    <div class="navbar">
+        <a href="inicio.html" id="inicio">Inicio</a>
+        <a href="informacion.html" id="informacion">Información</a>
+        <a href="juegos.html" id="juegos">Juegos</a>
+        <a href="contacto.html" id="contacto">Contacto</a>
+    </div>
+
+    <div id="resultado"></div>
+
+    <div class="poem">
+        <p>Bienvenidos a OperaBasic, una página web interactiva</p>
+        <p>con la que podrás aprender matemáticas de manera divertida.</p>
+        <p>Tus maestros podrán asignarte tareas</p>
+        <p>en los cuales desarrollarás tus habilidades</p>
+        <p>en las matemáticas y servirán para que tus maestros</p>
+        <p>puedan seguir y valorar tu proceso</p>
+        <p>con el pasar de tus clases.</p>
+        <p>Si tienes alguna duda o sugerencia,</p>
+        <p>contáctanos en la sección de contacto</p>
+        <p>y disfruta de nuestros diferentes juegos y actividades.</p>
+        <p>I.E Las Nieves</p>
+        <p>2024</p>
+    </div>
+
+    <img src="logotipo.jpg" alt="Logotipo" class="logo">
+
+    <script>
+        document.getElementById("inicio").addEventListener("click", function() {
+            document.getElementById("resultado").innerText = "Bienvenido a la página principal.";
+        });
+
+        document.getElementById("informacion").addEventListener("click", function() {
+            document.getElementById("resultado").innerText = "🔹 El propósito de nuestra aplicación es que los niños de tercer grado aprendan de manera más divertida las matemáticas básicas que ven por medio de minijuegos y actividades interactivas para que no vean el proceso de aprendizaje muy aburrido 🔹";
+        });
+
+        document.getElementById("juegos").addEventListener("click", function() {
+            document.getElementById("resultado").innerText = "✦ Nuestro objetivo es lograr que los estudiantes se diviertan con nuestra aplicación mientras que aprenden matemáticas de manera interactiva ✦";
+        });
+
+        document.getElementById("contacto").addEventListener("click", function() {
+            document.getElementById("resultado").innerText = "✅ El alcance del proyecto abarca a estudiantes de tercer grado, ofreciendo actividades y minijuegos adaptados a su nivel. MATEBASIC se centra específicamente en aspectos fundamentales de las matemáticas básicas y busca complementar el aprendizaje en el aula de una manera que sea complementaria al plan de estudios escolar. La aplicación pretende ser fácilmente accesible y comprensible para los estudiantes, brindando una experiencia educativa única y atractiva ✅";
+        });
+    </script>
+
+</body>
+
+</html>
